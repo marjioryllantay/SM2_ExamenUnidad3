@@ -13,10 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Set up Flutter
-        uses: dart-lang/setup-flutter@v1
+      - name: Set up Flutter (versión 3.22.1)
+        uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.22.1'  #  versión correcta con Dart 3.22.x
+          flutter-version: '3.22.1'
+          channel: 'stable'         #  necesario para resolver correctamente
 
       - name: Install dependencies
         run: flutter pub get
