@@ -1,6 +1,8 @@
 # SM2_ExamenUnidad3
 
 <div align="center">
+  
+![image](https://github.com/user-attachments/assets/3b8ef7e0-e6f9-469c-b590-c6ddd71c37dc)
 
 # UNIVERSIDAD PRIVADA DE TACNA  
 ## FACULTAD DE INGENIERÍA  
